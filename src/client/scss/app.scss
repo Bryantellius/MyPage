@@ -1,0 +1,41 @@
+$theme-colors: (
+    'primary': #0091ea //Covalence Blue!  :D
+);
+
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+#homeHeader {
+    font-size: 5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#homeCityName {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navLines {
+    background-color: black;
+    height: 2px;
+    width: 3rem;
+    margin: 5px 0;
+}
+
+#nav {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
+
+#media {
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+}
+
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
