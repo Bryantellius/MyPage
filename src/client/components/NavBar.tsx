@@ -10,7 +10,7 @@ const NavBar: React.FC<INavBarProps> = () => {
     return (
       <div id="navBar" className="row">
         <Media />
-        <div className="col-4 text-center">
+        <div className="col-md-4 text-center">
           <h1 id="navHeader">Ben Bryant</h1>
         </div>
         <Nav />

@@ -4,10 +4,10 @@ const Media: React.FC<IMediaProps> = () => {
   return (
     <div
       id="media"
-      className="col-4 d-flex justify-flex-start align-items-start"
+      className="col-md-4 d-flex justify-flex-start align-items-start"
     >
       <div className="p-2">
-        <a href="https://github.com/Bryantellius" target="_blank">
+        <a className="nav-link text-dark" href="https://github.com/Bryantellius" target="_blank">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -25,7 +25,7 @@ const Media: React.FC<IMediaProps> = () => {
         </a>
       </div>
       <div className="p-2">
-        <a
+        <a className="nav-link text-dark"
           href="https://www.linkedin.com/in/ben-bryant-26a433a5/"
           target="_blank"
         >
@@ -48,7 +48,7 @@ const Media: React.FC<IMediaProps> = () => {
         </a>
       </div>
       <div className="p-2">
-        <a href="https://www.instagram.com/brbryant2639/?hl=en" target="_blank">
+        <a className="nav-link text-dark" href="https://www.instagram.com/brbryant2639/?hl=en" target="_blank">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -68,7 +68,7 @@ const Media: React.FC<IMediaProps> = () => {
         </a>
       </div>
       <div className="p-2 border-right">
-        <a href="https://twitter.com/brbryant2639" target="_blank">
+        <a className="nav-link text-dark" href="https://twitter.com/brbryant2639" target="_blank">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"

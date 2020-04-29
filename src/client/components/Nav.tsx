@@ -6,7 +6,7 @@ const Nav: React.FC<INavProps> = () => {
 
   const toggleMenu = () => {
     if (!menu) {
-      document.getElementById("navLinks").style.zIndex = "2";
+      document.getElementById("navLinks").style.zIndex = "4";
       document.getElementById("navDivHome").style.opacity = "100%";
       document.getElementById("navDivAbout").style.opacity = "100%";
       document.getElementById("navDivXp").style.opacity = "100%";
@@ -24,7 +24,7 @@ const Nav: React.FC<INavProps> = () => {
     <>
       <div
         id="nav"
-        className="col-4 d-flex flex-column justify-content-start align-items-end"
+        className="col-md-4 d-flex flex-column justify-content-start align-items-end"
         onClick={toggleMenu}
       >
         <div id="line1" className="navLines"></div>
