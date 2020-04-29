@@ -2,13 +2,27 @@ import * as React from "react";
 import { NavLink } from "react-router-dom";
 
 const Nav: React.FC<INavProps> = () => {
+  const [menu, setMenu] = React.useState<boolean>(false);
+
   const toggleMenu = () => {
-    alert("test menu");
+    if (!menu) {
+      document.getElementById("navLinks").style.zIndex = "2";
+      document.getElementById("navDivHome").style.opacity = "100%";
+      document.getElementById("navDivAbout").style.opacity = "100%";
+      document.getElementById("navDivXp").style.opacity = "100%";
+      setMenu(true);
+    } else {
+      document.getElementById("navDivHome").style.opacity = "0%";
+      document.getElementById("navDivAbout").style.opacity = "0%";
+      document.getElementById("navDivXp").style.opacity = "0%";
+      document.getElementById("navLinks").style.zIndex = "-1";
+      setMenu(false);
+    }
   };
 
   return (
     <>
-      {/* <div
+      <div
         id="nav"
         className="col-4 d-flex flex-column justify-content-start align-items-end"
         onClick={toggleMenu}
@@ -16,14 +30,23 @@ const Nav: React.FC<INavProps> = () => {
         <div id="line1" className="navLines"></div>
         <div id="line2" className="navLines"></div>
         <div id="line3" className="navLines"></div>
-      </div> */}
-      <div
-        id="navLinks"
-        className="col-4 d-flex flex-column justify-content-start align-items-end"
-      >
-        <NavLink to="/" className="nav-link text-dark p-1">Home</NavLink>
-        <NavLink to="/about" className="nav-link text-dark p-1">About</NavLink>
-        <NavLink to="/xp" className="nav-link text-dark p-1">Experience</NavLink>
+      </div>
+      <div id="navLinks">
+        <div id="navDivHome">
+          <NavLink to="/" className="nav-link text-light p-1">
+            Home
+          </NavLink>
+        </div>
+        <div id="navDivAbout">
+          <NavLink to="/about" className="nav-link text-light p-1">
+            About
+          </NavLink>
+        </div>
+        <div id="navDivXp">
+          <NavLink to="/xp" className="nav-link text-light p-1">
+            Experience
+          </NavLink>
+        </div>
       </div>
     </>
   );

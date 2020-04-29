@@ -1,5 +1,5 @@
 $theme-colors: (
-  "primary": #0091ea //Covalence Blue!  :D,
+  "primary": #0091ea //Covalence Blue!  :D,,
 );
 
 #root {
@@ -9,6 +9,10 @@ $theme-colors: (
   height: 100%;
   width: 100%;
   position: relative;
+}
+
+#homeMainDiv {
+  z-index: 5;
 }
 
 #homeHeader {
@@ -41,6 +45,7 @@ $theme-colors: (
   margin: auto;
   top: 0;
   width: 100%;
+  z-index: 5;
 }
 
 #navHeader {
@@ -59,10 +64,27 @@ $theme-colors: (
   }
 }
 
-.nav-link:hover {
-  animation: getBorder 1s;
-  border-left: 2px outset gray;
+#navLinks {
+  z-index: -1;
+  position: absolute;
+  top: 15vh;
+  right: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
+#navDivHome,
+#navDivAbout,
+#navDivXp {
+  width: 8rem;
+  background-color: rgb(70, 70, 70);
+  opacity: 0%;
+  transition: opacity 2s;
+  margin: 1rem 0;
+  border-right: 2px inset white;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 50%;
+}
 
 @import "../../../node_modules/bootstrap/scss/bootstrap.scss";
