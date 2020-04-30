@@ -24,29 +24,10 @@ const Nav: React.FC<INavProps> = () => {
     <>
       <div
         id="nav"
-        className="col-md-4 d-flex flex-column justify-content-start align-items-end"
+        className="col-md-4 border"
         onClick={toggleMenu}
       >
-        <div id="line1" className="navLines"></div>
-        <div id="line2" className="navLines"></div>
-        <div id="line3" className="navLines"></div>
-      </div>
-      <div id="navLinks">
-        <div id="navDivHome">
-          <NavLink to="/" className="nav-link text-light p-1">
-            Home
-          </NavLink>
-        </div>
-        <div id="navDivAbout">
-          <NavLink to="/about" className="nav-link text-light p-1">
-            About
-          </NavLink>
-        </div>
-        <div id="navDivXp">
-          <NavLink to="/xp" className="nav-link text-light p-1">
-            Experience
-          </NavLink>
-        </div>
+        <span>Nav</span>
       </div>
     </>
   );

@@ -4,7 +4,7 @@ const Media: React.FC<IMediaProps> = () => {
   return (
     <div
       id="media"
-      className="col-md-4 d-flex justify-flex-start align-items-start"
+      className="col-md-4 d-flex justify-flex-start align-items-center border"
     >
       <div className="p-2">
         <a className="nav-link text-dark" href="https://github.com/Bryantellius" target="_blank">

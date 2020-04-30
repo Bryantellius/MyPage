@@ -2,28 +2,15 @@ $theme-colors: (
   "primary": #0091ea //Covalence Blue!  :D,,
 );
 
-#root {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100%;
-  min-width: 100%;
-  position: relative;
-  background-color: rgb(171, 99, 99);
+main {
+  background-image: linear-gradient(to bottom right, gray, white);
 }
 
 #homeMainDiv {
-  z-index: 3;
-  background-color: white;
-  border: 0.5rem outset;
-  box-shadow: 0 0 2rem rgb(111, 38, 38);
   animation: Appear 2s;
 }
 
 #aboutDiv {
-  z-index: 3;
-  position: relative;
-  margin-top: 5rem;
   animation: Appear 2s;
 }
 
@@ -37,29 +24,8 @@ $theme-colors: (
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-.navLines {
-  background-color: black;
-  height: 2px;
-  width: 3rem;
-  margin: 5px 0;
-}
-
 #nav:hover {
   cursor: pointer;
-}
-
-#navBar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: absolute;
-  padding: 1rem;
-  margin: auto;
-  top: 0;
-  width: 100%;
-  z-index: 5;
-  background-color: white;
-  box-shadow: 0 0 2rem rgb(111, 38, 38);
 }
 
 #navHeader {
@@ -76,32 +42,6 @@ $theme-colors: (
   to {
     opacity: 100%;
   }
-}
-
-#navLinks {
-  z-index: 4;
-  position: absolute;
-  top: 15vh;
-  right: 2rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
-
-#navDivHome,
-#navDivAbout,
-#navDivXp {
-  width: 8rem;
-  height: 3rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: rgb(70, 70, 70);
-  opacity: 0%;
-  transition: opacity 1.5s;
-  margin: 1rem 0;
-  border-radius: 1rem;
-  box-shadow: 0 0 0.5rem white;
 }
 
 @import "../../../node_modules/bootstrap/scss/bootstrap.scss";
