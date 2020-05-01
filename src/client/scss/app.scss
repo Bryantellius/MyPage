@@ -4,6 +4,7 @@ $theme-colors: (
 
 main {
   background-image: linear-gradient(to bottom right, gray, white);
+  overflow-y: auto;
 }
 
 #homeMainDiv {
@@ -24,8 +25,23 @@ main {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-#nav:hover {
+#menuIcon, #arrowIcon {
+  transition: transform 1s;
+}
+
+#menuIcon:hover, #arrowIcon:hover {
   cursor: pointer;
+  transform: rotate(360deg);
+}
+
+#nav-list {
+  overflow: hidden;
+  transition: height 1s;
+  height: 0px;
+}
+
+#arrowIcon {
+  display: none;
 }
 
 #navHeader {
