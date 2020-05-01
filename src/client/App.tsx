@@ -7,19 +7,19 @@ import Experience from "./views/Experience";
 
 const App: React.FC<IAppProps> = () => {
   return (
-    <main className="container-fluid bg-secondary w-100 h-100">
+    <main id="appMain" className="container-fluid w-100 h-100">
       <BrowserRouter>
         <NavBar />
-        <div id="nav-list" className="d-flex justify-content-end align-items-center">
+        <div id="nav-list" className="d-flex justify-content-end align-items-center m-2">
           <ul className="nav">
             <li className="nav-item">
-              <NavLink className="nav-link text-dark" to="/">Home</NavLink>
+              <NavLink className="nav-link text-light border-left border-light" to="/">Home</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link text-dark" to="/about">About</NavLink>
+              <NavLink className="nav-link text-light border-left border-light" to="/about">About</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link text-dark" to="/xp">Experience</NavLink>
+              <NavLink className="nav-link text-light border-left border-light" to="/xp">Experience</NavLink>
             </li>
           </ul>
         </div>

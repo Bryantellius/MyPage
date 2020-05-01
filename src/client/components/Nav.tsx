@@ -7,14 +7,16 @@ const Nav: React.FC<INavProps> = () => {
 
   const toggleMenu = () => {
     if (!menu) {
-      document.getElementById("nav-list").style.height = "2rem";
+      document.getElementById("nav-list").style.height = "3rem";
       document.getElementById("menuIcon").style.display = "none";
       document.getElementById("arrowIcon").style.display = "inline";
+      document.getElementById("arrowIcon").style.animation = "spin 1s";
       setMenu(true);
     } else {
       document.getElementById("nav-list").style.height = "0px";
       document.getElementById("arrowIcon").style.display = "none";
       document.getElementById("menuIcon").style.display = "inline";
+      document.getElementById("menuIcon").style.animation = "spin 1s";
       setMenu(false);
     }
   };
@@ -29,7 +31,7 @@ const Nav: React.FC<INavProps> = () => {
   return (
     <>
       <div
-        className="col-md-4 d-flex justify-content-end align-items-center border"
+        className="col-md-4 d-flex justify-content-end align-items-center"
         onClick={toggleMenu}
       >
         <svg

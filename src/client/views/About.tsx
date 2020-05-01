@@ -4,7 +4,7 @@ const About: React.FC<IAboutProps> = () => {
   return (
     <main className="container">
       <div id="aboutDiv" className="rounded p-3">
-        <h1 className="p-2 text-light border-bottom border-dark">About Me</h1>
+        <h1 className="p-2 text-light border-bottom border-light">About Me</h1>
         <p className="p-2 text-light" id="about1">
           Hello there! My name is Ben Bryant and I am a student studying
           full-stack development with Covalence.io. I am originally from
@@ -31,7 +31,7 @@ const About: React.FC<IAboutProps> = () => {
           I find it fun to conquer coding challenges, and the resilience it
           requires.
         </p>
-        <h6 className="p-2 text-light border-bottom border-dark" id="aboutList1">
+        <h6 className="p-2 text-light border-bottom border-light" id="aboutList1">
           Below is a list of current tech I'm learning and using:
         </h6>
         <ul className="text-light">
@@ -43,7 +43,7 @@ const About: React.FC<IAboutProps> = () => {
           <li>ExpressJS</li>
           <li>MySQL</li>
         </ul>
-        <h6 className="p-2 text-light border-bottom border-dark" id="aboutList2">
+        <h6 className="p-2 text-light border-bottom border-light" id="aboutList2">
           Below is a list of tech that interests me:
         </h6>
         <ul className="text-light">
