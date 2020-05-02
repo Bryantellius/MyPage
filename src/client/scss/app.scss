@@ -1,5 +1,5 @@
 $theme-colors: (
-  "primary": #0091ea //Covalence Blue!  :D,,
+  "primary": #0091ea //Covalence Blue!  :D,,,
 );
 
 #appMain {
@@ -13,7 +13,7 @@ $theme-colors: (
 
 #aboutDiv {
   animation: Appear 2s;
-  background-image: linear-gradient(to bottom right, #D39494, #501010);
+  background-image: linear-gradient(to bottom right, #d39494, #501010);
 }
 
 #homeHeader {
@@ -27,15 +27,20 @@ $theme-colors: (
 }
 
 // #menuIcon, #arrowIcon {
-  
+
 // }
 
 @keyframes spin {
-  from {transform: rotate(0deg);}
-  to {transform: rotate(360deg);}
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
-#menuIcon:hover, #arrowIcon:hover {
+#menuIcon:hover,
+#arrowIcon:hover {
   cursor: pointer;
 }
 
