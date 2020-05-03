@@ -1,10 +1,11 @@
 $theme-colors: (
-  "primary": #0091ea //Covalence Blue!  :D,,,
+  "primary": #0091ea //Covalence Blue!  :D,,,,
 );
 
 #appMain {
-  background-image: linear-gradient(to bottom right, #501010, #D39494);
+  background-image: linear-gradient(to bottom right, #501010, #d39494);
   overflow-y: auto;
+  // background-image: url("../../../public/IMG-0681.JPG");
 }
 
 #homeMainDiv {

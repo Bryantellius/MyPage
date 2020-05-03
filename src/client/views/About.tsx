@@ -26,12 +26,13 @@ const About: React.FC<IAboutProps> = () => {
           to enroll in the Covalence Full-Stack Development bootcamp.
         </p>
         <p className="p-2 text-light" id="about4">
-          I enjoy learning and writing code for development. I'm green and I
-          know it, and I see it as a wasted day if I didn't learn something new.
-          I find it fun to conquer coding challenges, and the resilience it
-          requires.
+          I enjoy learning and writing code for development. I find it fun to
+          conquer coding challenges, and the resilience it requires.
         </p>
-        <h6 className="p-2 text-light border-bottom border-light" id="aboutList1">
+        <h6
+          className="p-2 text-light border-bottom border-light"
+          id="aboutList1"
+        >
           Below is a list of current tech I'm learning and using:
         </h6>
         <ul className="text-light">
@@ -42,15 +43,18 @@ const About: React.FC<IAboutProps> = () => {
           <li>NodeJS</li>
           <li>ExpressJS</li>
           <li>MySQL</li>
+          <li>MailGun</li>
+          <li>Stripe</li>
         </ul>
-        <h6 className="p-2 text-light border-bottom border-light" id="aboutList2">
+        <h6
+          className="p-2 text-light border-bottom border-light"
+          id="aboutList2"
+        >
           Below is a list of tech that interests me:
         </h6>
         <ul className="text-light">
           <li>React Native</li>
           <li>Ruby on Rails</li>
-          <li>MailGun</li>
-          <li>Stripe</li>
         </ul>
       </div>
     </main>
