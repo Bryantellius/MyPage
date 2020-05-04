@@ -48,9 +48,9 @@ const Nav: React.FC<INavProps> = () => {
           className="feather feather-menu"
         >
           {/* Menu icon */}
-          <line id="topLine" x1="3" y1="12" x2="21" y2="12"></line>
-          <line id="middleLine" x1="3" y1="6" x2="21" y2="6"></line>
-          <line id="bottomLine" x1="3" y1="18" x2="21" y2="18"></line>
+          <line id="topLine" x1="0" y1="12" x2="24" y2="12"></line>
+          <line id="middleLine" x1="0" y1="6" x2="24" y2="6"></line>
+          <line id="bottomLine" x1="0" y1="18" x2="24" y2="18"></line>
         </svg>
         <svg
           id="arrowIcon"
@@ -66,9 +66,9 @@ const Nav: React.FC<INavProps> = () => {
           className="feather feather-menu"
         >
           {/* Down Arrow icon */}
-          <line x1="3" y1="6" x2="21" y2="6"></line>
-          <line x1="12" y1="18" x2="21" y2="6"></line>
-          <line x1="3" y1="6" x2="12" y2="18"></line>
+          <line x1="0" y1="6" x2="24" y2="6"></line>
+          <line x1="12" y1="18" x2="24" y2="6"></line>
+          <line x1="0" y1="6" x2="12" y2="18"></line>
         </svg>
       </div>
     </>

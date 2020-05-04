@@ -49,8 +49,10 @@ const clientConfig = {
         use: ["style-loader", "css-loader", "sass-loader"],
       },
       {
-        test: /\.(png|svg|jpe?g|gif)$/i,
-        loader: "file-loader",
+        test: /\.(jpg|png)$/i,
+        use: {
+          loader: "file-loader",
+        },
       },
     ],
   },
