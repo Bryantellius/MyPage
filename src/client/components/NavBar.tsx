@@ -8,17 +8,17 @@ const NavBar: React.FC<INavBarProps> = () => {
 
   if (location.pathname !== "/") {
     return (
-      <div id="navBar" className="row bg-light shadow">
+      <div id="navBar" className="row">
         <Media />
         <div className="col-md-4 text-center">
-          <h1 id="navHeader">Ben Bryant</h1>
+          <h1 id="navHeader" className="text-light">Ben Bryant</h1>
         </div>
         <Nav />
       </div>
     );
   } else {
     return (
-      <div id="navBar" className="row bg-light shadow">
+      <div id="navBar" className="row">
         <Media />
         <div className="col-md-4"></div>
         <Nav />

@@ -8,7 +8,7 @@ import Contact from "./views/Contact";
 
 const App: React.FC<IAppProps> = () => {
   return (
-    <main id="appMain" className="container-fluid w-100 h-100">
+    <main id="appMain" className="container-fluid w-100 h-100 bg-dark">
       <BrowserRouter>
         <NavBar />
         <div

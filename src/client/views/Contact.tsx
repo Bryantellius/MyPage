@@ -1,5 +1,8 @@
 import * as React from "react";
-import { InputGroup, FormControl, Button, Alert } from "react-bootstrap";
+import InputGroup from "react-bootstrap/InputGroup";
+import FormControl from "react-bootstrap/FormControl";
+import Alert from "react-bootstrap/Alert";
+import Button from "react-bootstrap/Button";
 import { apiService } from "../utils/apiService";
 
 const Contact: React.FC<IContactProps> = () => {
@@ -11,7 +14,11 @@ const Contact: React.FC<IContactProps> = () => {
   const sendEmail = async (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
     // console.log({ email, subject, message });
-    let result = await apiService("/api/email", "POST", { email, subject, message });
+    let result = await apiService("/api/email", "POST", {
+      email,
+      subject,
+      message,
+    });
     setEmail("");
     setSubject("");
     setMessage("");
@@ -34,7 +41,10 @@ const Contact: React.FC<IContactProps> = () => {
           </h6>
         </Alert>
         <div className="w-50 mx-auto card shadow p-3">
-          <InputGroup className="mb-3">
+          <h3 className="p-2 border-bottom border-info">
+            Contact Me Via Email
+          </h3>
+          <InputGroup className="my-3">
             <InputGroup.Prepend>
               <InputGroup.Text id="prependEmail">Email</InputGroup.Text>
             </InputGroup.Prepend>
@@ -79,8 +89,8 @@ const Contact: React.FC<IContactProps> = () => {
           </InputGroup>
 
           <Button
-            variant="primary"
-            className="w-50 mx-auto"
+            variant="dark"
+            className="w-50 mx-auto shadow"
             onClick={sendEmail}
           >
             Send
@@ -92,7 +102,10 @@ const Contact: React.FC<IContactProps> = () => {
     return (
       <main className="container my-5">
         <div className="w-50 mx-auto card shadow p-3">
-          <InputGroup className="mb-3">
+          <h3 className="p-2 border-bottom border-info">
+            Contact Me Via Email
+          </h3>
+          <InputGroup className="my-3">
             <InputGroup.Prepend>
               <InputGroup.Text id="prependEmail">Email</InputGroup.Text>
             </InputGroup.Prepend>
@@ -137,13 +150,18 @@ const Contact: React.FC<IContactProps> = () => {
           </InputGroup>
 
           <Button
-            variant="primary"
-            className="w-50 mx-auto"
+            variant="dark"
+            className="w-50 mx-auto shadow"
             onClick={sendEmail}
           >
             Send
           </Button>
         </div>
+        <Alert variant="info" className="w-50 mx-auto shadow p-3 my-3">
+          <h6 className="p-2 border-top border-dark text-muted">
+            Thank you for taking the time to view this site.
+          </h6>
+        </Alert>
       </main>
     );
   }

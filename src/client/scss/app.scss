@@ -1,10 +1,9 @@
 $theme-colors: (
-  "primary": #0091ea //Covalence Blue!  :D,,,,,
+  "primary": #0091ea //Covalence Blue!  :D,,,,,,,
 );
 
 #appMain {
-  // background-image: url("../../assets/IMG-0681.JPG");
-  background-image: linear-gradient(to bottom right, #501010, #d39494);
+  // background: url("../../assets/IMG-0681.JPG");
   overflow-y: auto;
 }
 
@@ -12,19 +11,31 @@ $theme-colors: (
   animation: Appear 2s;
 }
 
+#workOne {
+  animation: Appear 2s;
+}
+#workTwo {
+  animation: Appear 3s;
+}
+#workThree {
+  animation: Appear 4s;
+}
+
 #aboutDiv {
   animation: Appear 2s;
-  background-image: linear-gradient(to bottom right, #d39494, #501010);
+  // background-image: linear-gradient(to bottom right, #1B1B1B, #8D8C8C);
 }
 
 #homeHeader {
   font-size: 6rem;
+  font-weight: 300;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #homeCityName {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 100;
 }
 
 // #menuIcon, #arrowIcon {
@@ -69,6 +80,10 @@ $theme-colors: (
   to {
     opacity: 100%;
   }
+}
+
+.cardlist {
+  font-weight: 100;
 }
 
 @import "../../../node_modules/bootstrap/scss/bootstrap.scss";
