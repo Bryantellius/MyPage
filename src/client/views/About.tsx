@@ -1,6 +1,4 @@
 import * as React from "react";
-import CardColumns from "react-bootstrap/CardColumns";
-import Card from "react-bootstrap/Card";
 
 const About: React.FC<IAboutProps> = () => {
   return (
@@ -42,17 +40,17 @@ const About: React.FC<IAboutProps> = () => {
         >
           Below is a list of current tech I'm learning and using:
         </h6>
-        <CardColumns>
-          <Card className="p-2 cardlist">HTML/CSS</Card>
-          <Card className="p-2 cardlist">Javascipt</Card>
-          <Card className="p-2 cardlist">Typescript</Card>
-          <Card className="p-2 cardlist">React</Card>
-          <Card className="p-2 cardlist">NodeJS</Card>
-          <Card className="p-2 cardlist">ExpressJS</Card>
-          <Card className="p-2 cardlist">MySQL</Card>
-          <Card className="p-2 cardlist">MailGun</Card>
-          <Card className="p-2 cardlist">StripeJS</Card>
-        </CardColumns>
+        <div className="card-columns">
+          <div className="p-2 card">HTML/CSS</div>
+          <div className="p-2 card">Javascipt</div>
+          <div className="p-2 card">Typescript</div>
+          <div className="p-2 card">React</div>
+          <div className="p-2 card">NodeJS</div>
+          <div className="p-2 card">ExpressJS</div>
+          <div className="p-2 card">MySQL</div>
+          <div className="p-2 card">MailGun</div>
+          <div className="p-2 card">StripeJS</div>
+        </div>
 
         <h6
           className="p-2 text-light border-bottom border-light"
@@ -60,11 +58,11 @@ const About: React.FC<IAboutProps> = () => {
         >
           Below is a list of tech that I want to learn next:
         </h6>
-        <CardColumns>
-          <Card className="p-2 cardlist">Ruby on Rails</Card>
-          <Card className="p-2 cardlist">Angular</Card>
-          <Card className="p-2 cardlist">C#</Card>
-        </CardColumns>
+        <div className="card-columns">
+          <div className="p-2 card">Ruby on Rails</div>
+          <div className="p-2 card">Angular</div>
+          <div className="p-2 card">C#</div>
+        </div>
       </div>
     </main>
   );

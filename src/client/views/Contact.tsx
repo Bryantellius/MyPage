@@ -1,8 +1,4 @@
 import * as React from "react";
-import InputGroup from "react-bootstrap/InputGroup";
-import FormControl from "react-bootstrap/FormControl";
-import Alert from "react-bootstrap/Alert";
-import Button from "react-bootstrap/Button";
 import { apiService } from "../utils/apiService";
 
 const Contact: React.FC<IContactProps> = () => {
@@ -25,76 +21,76 @@ const Contact: React.FC<IContactProps> = () => {
     setSent(true);
   };
 
-  //   React.useEffect(() => {}, [sent]);
-
   if (sent) {
     return (
       <main className="container">
-        <Alert
-          variant="success"
-          className="w-50 mx-auto"
-          onClose={() => setSent(false)}
-          dismissible
-        >
+        <div className="alert alert-success w-50 mx-auto">
           <h6 className="text-center">
             Thanks for connecting. You'll hear from me soon.
           </h6>
-        </Alert>
+        </div>
         <div className="w-50 mx-auto card shadow p-3">
           <h3 className="p-2 border-bottom border-info">
             Contact Me Via Email
           </h3>
-          <InputGroup className="my-3">
-            <InputGroup.Prepend>
-              <InputGroup.Text id="prependEmail">Email</InputGroup.Text>
-            </InputGroup.Prepend>
-            <FormControl
+          <div className="input-group my-3">
+            <div className="input-group-prepend">
+              <span className="input-group-text" id="prependEmail">
+                Email
+              </span>
+            </div>
+            <input
               placeholder="Your Email"
               aria-label="Email"
               aria-describedby="prependEmail"
+              className="form-control"
               value={email}
               onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
                 setEmail(e.target.value)
               }
             />
-          </InputGroup>
+          </div>
 
-          <InputGroup className="mb-3">
-            <InputGroup.Prepend>
-              <InputGroup.Text id="prependSubject">Subject</InputGroup.Text>
-            </InputGroup.Prepend>
-            <FormControl
+          <div className="input-group mb-3">
+            <div className="input-group-prepend">
+              <span className="input-group-text" id="prependSubject">
+                Subject
+              </span>
+            </div>
+            <input
               placeholder="Subject"
               aria-label="Subject"
               aria-describedby="prependSubject"
+              className="form-control"
               value={subject}
               onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
                 setSubject(e.target.value)
               }
             />
-          </InputGroup>
+          </div>
 
-          <InputGroup className="mb-3">
-            <InputGroup.Prepend>
-              <InputGroup.Text id="prependMessage">Message</InputGroup.Text>
-            </InputGroup.Prepend>
-            <FormControl
-              as="textarea"
+          <div className="input-group mb-3">
+            <div className="input-group-prepend">
+              <span className="input-group-text" id="prependMessage">
+                Message
+              </span>
+            </div>
+            <textarea
               aria-label="Message"
+              className="form-control"
               value={message}
-              onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
+              onChange={(e: React.ChangeEvent<HTMLTextAreaElement>) =>
                 setMessage(e.target.value)
               }
             />
-          </InputGroup>
+          </div>
 
-          <Button
-            variant="dark"
-            className="w-50 mx-auto shadow"
+          <button
+            className="btn btn-dark w-50 mx-auto shadow"
             onClick={sendEmail}
           >
             Send
-          </Button>
+          </button>
         </div>
       </main>
     );
@@ -105,63 +101,70 @@ const Contact: React.FC<IContactProps> = () => {
           <h3 className="p-2 border-bottom border-info">
             Contact Me Via Email
           </h3>
-          <InputGroup className="my-3">
-            <InputGroup.Prepend>
-              <InputGroup.Text id="prependEmail">Email</InputGroup.Text>
-            </InputGroup.Prepend>
-            <FormControl
+          <div className="input-group my-3">
+            <div className="input-group-prepend">
+              <span className="input-group-text" id="prependEmail">
+                Email
+              </span>
+            </div>
+            <input
               placeholder="Your Email"
               aria-label="Email"
               aria-describedby="prependEmail"
+              className="form-control"
               value={email}
               onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
                 setEmail(e.target.value)
               }
             />
-          </InputGroup>
+          </div>
 
-          <InputGroup className="mb-3">
-            <InputGroup.Prepend>
-              <InputGroup.Text id="prependSubject">Subject</InputGroup.Text>
-            </InputGroup.Prepend>
-            <FormControl
+          <div className="input-group mb-3">
+            <div className="input-group-prepend">
+              <span className="input-group-text" id="prependSubject">
+                Subject
+              </span>
+            </div>
+            <input
               placeholder="Subject"
               aria-label="Subject"
               aria-describedby="prependSubject"
+              className="form-control"
               value={subject}
               onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
                 setSubject(e.target.value)
               }
             />
-          </InputGroup>
+          </div>
 
-          <InputGroup className="mb-3">
-            <InputGroup.Prepend>
-              <InputGroup.Text id="prependMessage">Message</InputGroup.Text>
-            </InputGroup.Prepend>
-            <FormControl
-              as="textarea"
+          <div className="input-group mb-3">
+            <div className="input-group-prepend">
+              <span className="input-group-text" id="prependMessage">
+                Message
+              </span>
+            </div>
+            <textarea
               aria-label="Message"
+              className="form-control"
               value={message}
-              onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
+              onChange={(e: React.ChangeEvent<HTMLTextAreaElement>) =>
                 setMessage(e.target.value)
               }
             />
-          </InputGroup>
+          </div>
 
-          <Button
-            variant="dark"
-            className="w-50 mx-auto shadow"
+          <button
+            className="btn btn-dark w-50 mx-auto shadow"
             onClick={sendEmail}
           >
             Send
-          </Button>
+          </button>
         </div>
-        <Alert variant="info" className="w-50 mx-auto shadow p-3 my-3">
+        <div className="alert alert-info w-50 mx-auto shadow p-3 my-3">
           <h6 className="p-2 border-top border-dark text-muted">
             Thank you for taking the time to view this site.
           </h6>
-        </Alert>
+        </div>
       </main>
     );
   }
