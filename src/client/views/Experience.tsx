@@ -10,7 +10,7 @@ const Experience: React.FC<IExperienceProps> = () => {
         >
           My Work
         </h1>
-        
+        <img src="" alt=""/>
       </div>
     </main>
   );
