@@ -12,10 +12,9 @@ const App: React.FC<IAppProps> = () => {
       <BrowserRouter>
         <NavBar />
         <div
-          id="nav-list"
-          className="d-flex justify-content-end align-items-center m-2"
+          className="d-flex row justify-content-end align-items-center m-2"
         >
-          <ul className="nav">
+          <ul id="nav-list" className="nav">
             <li className="nav-item">
               <NavLink
                 className="nav-link text-light border-left border-light"

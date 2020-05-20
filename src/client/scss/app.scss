@@ -1,10 +1,15 @@
 $theme-colors: (
-  "primary": #0091ea //Covalence Blue!  :D,,,,,,,
+  "primary": #0091ea //Covalence Blue!  :D,,,,,,,,
 );
 
 #appMain {
-  // background-image: url("public\js\20611af384e075db9e73f0b8d8b5e2e6.JPG");
   overflow-y: auto;
+}
+
+#profilePic {
+  height: 200px;
+  width: 200px;
+  border-radius: 25%;
 }
 
 #homeMainDiv {
@@ -53,9 +58,9 @@ $theme-colors: (
 }
 
 #nav-list {
-  overflow: hidden;
-  transition: height 1s;
-  height: 0px;
+  transition: opacity 1.25s;
+  pointer-events: none;
+  opacity: 0%;
 }
 
 #arrowIcon {
@@ -67,6 +72,10 @@ $theme-colors: (
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 100;
   align-self: stretch;
+}
+
+.appear {
+  animation: Appear 2s;
 }
 
 @keyframes Appear {

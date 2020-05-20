@@ -23,13 +23,13 @@ const Contact: React.FC<IContactProps> = () => {
 
   if (sent) {
     return (
-      <main className="container">
-        <div className="alert alert-success w-50 mx-auto">
+      <main className="container d-flex flex-column align-items-center">
+        <div className="appear alert alert-success col-lg-6 col-sm-12 col-md-8">
           <h6 className="text-center">
             Thanks for connecting. You'll hear from me soon.
           </h6>
         </div>
-        <div className="w-50 mx-auto card shadow p-3">
+        <div className="appear col-lg-6 col-sm-12 col-md-8 card shadow p-3">
           <h3 className="p-2 border-bottom border-info">
             Contact Me Via Email
           </h3>
@@ -91,13 +91,18 @@ const Contact: React.FC<IContactProps> = () => {
           >
             Send
           </button>
+        </div>
+        <div className="appear alert alert-info col-lg-6 col-sm-12 col-md-8 shadow p-3 my-3">
+          <h6 className="p-2 border-top border-dark text-muted">
+            Thank you for taking the time to view this site.
+          </h6>
         </div>
       </main>
     );
   } else {
     return (
-      <main className="container my-5">
-        <div className="w-50 mx-auto card shadow p-3">
+      <main className="container d-flex flex-column align-items-center my-5">
+        <div className="appear col-lg-6 col-sm-12 col-md-8 card shadow p-3">
           <h3 className="p-2 border-bottom border-info">
             Contact Me Via Email
           </h3>
@@ -160,7 +165,7 @@ const Contact: React.FC<IContactProps> = () => {
             Send
           </button>
         </div>
-        <div className="alert alert-info w-50 mx-auto shadow p-3 my-3">
+        <div className="appear alert alert-info col-lg-6 col-sm-12 col-md-8 shadow p-3 my-3">
           <h6 className="p-2 border-top border-dark text-muted">
             Thank you for taking the time to view this site.
           </h6>

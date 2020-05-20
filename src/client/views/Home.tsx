@@ -5,9 +5,10 @@ const Home: React.FC<IHomeProps> = () => {
     <>
       <div
         id="homeMainDiv"
-        className="d-flex justify-content-center align-items-center my-5"
+        className="d-flex row justify-content-center align-items-center my-5"
       >
-        <div className="d-flex flex-column justify-content-center align-items-end p-3 border-right rounded shadow bg-light">
+        <img id="profilePic" className="col-md-lg" src='\assets\ProfilePic.jpg' alt="Test" />
+        <div className="d-flex col-md-lg flex-column justify-content-center align-items-end p-3 border-right rounded shadow bg-light">
           <h1 id="homeHeader">Ben Bryant</h1>
 
           <div id="homeCityDiv" className="d-flex justify-content-betwee">

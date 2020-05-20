@@ -50,18 +50,23 @@ const clientConfig = {
       },
       {
         test: /\.(png|svg|jpg|gif)$/,
-        use: {
-          loader: "url-loader",
-          options: {
-            limit: 8000,
-            name: "assets/[hash]-[name].[ext]",
-          },
-        },
+        loader: "url-loader?limit=8192",
       },
     ],
   },
   resolve: {
-    extensions: [".tsx", ".ts", ".js", ".css", ".scss"],
+    extensions: [
+      ".tsx",
+      ".ts",
+      ".js",
+      ".css",
+      ".scss",
+      ".jpg",
+      ".JPG",
+      ".svg",
+      ".png",
+      ".gif",
+    ],
   },
   output: {
     filename: "app.js",

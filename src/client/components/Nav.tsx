@@ -7,13 +7,15 @@ const Nav: React.FC<INavProps> = () => {
 
   const toggleMenu = () => {
     if (!menu) {
-      document.getElementById("nav-list").style.height = "3rem";
+      document.getElementById("nav-list").style.opacity = "100%";
+      document.getElementById("nav-list").style.pointerEvents = "all";
       document.getElementById("menuIcon").style.display = "none";
       document.getElementById("arrowIcon").style.display = "inline";
       document.getElementById("arrowIcon").style.animation = "spin 1s";
       setMenu(true);
     } else {
-      document.getElementById("nav-list").style.height = "0px";
+      document.getElementById("nav-list").style.opacity = "0%";
+      document.getElementById("nav-list").style.pointerEvents = "none";
       document.getElementById("arrowIcon").style.display = "none";
       document.getElementById("menuIcon").style.display = "inline";
       document.getElementById("menuIcon").style.animation = "spin 1s";
@@ -22,7 +24,7 @@ const Nav: React.FC<INavProps> = () => {
   };
 
   React.useEffect(() => {
-    document.getElementById("nav-list").style.height = "0px";
+    document.getElementById("nav-list").style.opacity = "0%";
     document.getElementById("arrowIcon").style.display = "none";
     document.getElementById("menuIcon").style.display = "inline";
     setMenu(false);
