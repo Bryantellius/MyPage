@@ -47,7 +47,7 @@ const Nav: React.FC<INavProps> = () => {
           strokeWidth="1"
           strokeLinecap="round"
           strokeLinejoin="round"
-          className="feather feather-menu"
+          className="feather feather-menu m-2"
         >
           {/* Menu icon */}
           <line id="topLine" x1="0" y1="12" x2="24" y2="12"></line>
@@ -65,7 +65,7 @@ const Nav: React.FC<INavProps> = () => {
           strokeWidth="1"
           strokeLinecap="round"
           strokeLinejoin="round"
-          className="feather feather-menu"
+          className="feather feather-menu m-2"
         >
           {/* Down Arrow icon */}
           <line x1="0" y1="6" x2="24" y2="6"></line>

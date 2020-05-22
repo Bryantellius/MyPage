@@ -2,7 +2,7 @@ import * as React from "react";
 
 const Experience: React.FC<IExperienceProps> = () => {
   return (
-    <main className="container bg-dark shadow">
+    <main className="container shadow appear">
       <div id="experienceDiv" className="rounded p-3">
         <h1
           id="aboutHeader"

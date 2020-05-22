@@ -8,11 +8,11 @@ import Contact from "./views/Contact";
 
 const App: React.FC<IAppProps> = () => {
   return (
-    <main id="appMain" className="container-fluid w-100 h-100 bg-dark">
+    <main id="appMain" className="container-fluid w-100 h-100">
       <BrowserRouter>
         <NavBar />
         <div
-          className="d-flex row justify-content-end align-items-center m-2"
+          className="d-flex row justify-content-end align-items-center mb-3"
         >
           <ul id="nav-list" className="nav">
             <li className="nav-item">

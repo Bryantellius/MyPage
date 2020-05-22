@@ -2,7 +2,7 @@ import * as React from "react";
 
 const About: React.FC<IAboutProps> = () => {
   return (
-    <main className="container bg-dark shadow">
+    <main className="container shadow">
       <div id="aboutDiv" className="rounded p-3">
         <h1
           id="aboutHeader"

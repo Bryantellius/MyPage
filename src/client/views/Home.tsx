@@ -5,14 +5,13 @@ const Home: React.FC<IHomeProps> = () => {
     <>
       <div
         id="homeMainDiv"
-        className="d-flex row justify-content-center align-items-center my-5"
+        className="d-flex row justify-content-center align-items-center"
       >
-        <img id="profilePic" className="col-md-lg" src='\assets\ProfilePic.jpg' alt="Test" />
-        <div className="d-flex col-md-lg flex-column justify-content-center align-items-end p-3 border-right rounded shadow bg-light">
-          <h1 id="homeHeader">Ben Bryant</h1>
-
-          <div id="homeCityDiv" className="d-flex justify-content-betwee">
-            <div id="homeCityName" className="p-1">
+        <div id="homeContent" className="d-flex flex-column justify-content-center align-items-end p-3 border-right rounded shadow">
+          <img id="profilePic" src="\assets\ProfilePic.jpg" alt="Test" />
+          <h1 id="homeHeader" className="text-light">Ben Bryant</h1>
+          <div id="homeCityDiv" className="d-flex justify-content-between">
+            <div id="homeCityName" className="p-1 text-light">
               Birmingham, AL
             </div>
             <div id="homeCityPic" className="p-1">

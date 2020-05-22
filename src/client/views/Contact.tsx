@@ -23,7 +23,7 @@ const Contact: React.FC<IContactProps> = () => {
 
   if (sent) {
     return (
-      <main className="container d-flex flex-column align-items-center">
+      <main className="container d-flex flex-column align-items-center appear">
         <div className="appear alert alert-success col-lg-6 col-sm-12 col-md-8">
           <h6 className="text-center">
             Thanks for connecting. You'll hear from me soon.
@@ -101,7 +101,7 @@ const Contact: React.FC<IContactProps> = () => {
     );
   } else {
     return (
-      <main className="container d-flex flex-column align-items-center my-5">
+      <main className="container d-flex flex-column align-items-center appear">
         <div className="appear col-lg-6 col-sm-12 col-md-8 card shadow p-3">
           <h3 className="p-2 border-bottom border-info">
             Contact Me Via Email
