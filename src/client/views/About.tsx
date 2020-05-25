@@ -13,8 +13,8 @@ const About: React.FC<IAboutProps> = () => {
         <p className="p-2 text-light" id="about1">
           Hello there! My name is Ben Bryant and I am a student studying
           full-stack development with Covalence.io. I am originally from
-          Opelika, AL, and upon graduating from Samford University, now reside
-          in Birmingham, AL.
+          Opelika, AL, and upon graduating from Samford University in the Spring
+          of 2019, now reside in Birmingham, AL.
         </p>
         <p className="p-2 text-light" id="about2">
           While at Samford, I primarily studied Sport Administration and
@@ -47,6 +47,7 @@ const About: React.FC<IAboutProps> = () => {
           <div className="p-2 card">React</div>
           <div className="p-2 card">NodeJS</div>
           <div className="p-2 card">ExpressJS</div>
+          <div className="p-2 card">PassportJS</div>
           <div className="p-2 card">MySQL</div>
           <div className="p-2 card">MailGun</div>
           <div className="p-2 card">StripeJS</div>
