@@ -117,7 +117,7 @@ const TSXP: React.FC<ITSXPProps> = () => {
           Trak Shak Employee Dashboard
         </h3>
         <p className="text-light">
-          The Trak Shak Employee Dashboard is a conceptual design for an
+          The Trak Shak Employee Dashboard is a conceptual design for a
           workplace application designed for parttime employees of the Trak Shak
           to learn and stay up to date on shoe inventory, sales, or company
           messages.
