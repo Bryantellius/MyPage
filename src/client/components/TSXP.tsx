@@ -36,7 +36,7 @@ const TSXP: React.FC<ITSXPProps> = () => {
         </div>
         <img
           className="enlargedPic"
-          src="/assets/TSHome.png"
+          src="/assets/TSHome.PNG"
           alt="Home Page Enlarged"
         />
       </div>
@@ -60,7 +60,7 @@ const TSXP: React.FC<ITSXPProps> = () => {
         </div>
         <img
           className="enlargedPic"
-          src="/assets/TSLearn.png"
+          src="/assets/TSLearn.PNG"
           alt="Home Page Enlarged"
         />
       </div>
@@ -84,7 +84,7 @@ const TSXP: React.FC<ITSXPProps> = () => {
         </div>
         <img
           className="enlargedPic"
-          src="/assets/TSAdminInventory.png"
+          src="/assets/TSAdminInventory.PNG"
           alt="Home Page Enlarged"
         />
       </div>
@@ -108,7 +108,7 @@ const TSXP: React.FC<ITSXPProps> = () => {
         </div>
         <img
           className="enlargedPic"
-          src="/assets/TSAdminEdit.png"
+          src="/assets/TSAdminEdit.PNG"
           alt="Home Page Enlarged"
         />
       </div>
@@ -182,7 +182,7 @@ const TSXP: React.FC<ITSXPProps> = () => {
             <div className="card my-3">
               <img
                 className="xpPic"
-                src="/assets/TSHome.png"
+                src="/assets/TSHome.PNG"
                 alt="Trak Shak Home Page"
                 onClick={() => focus("TSHomePage")}
               />
@@ -190,7 +190,7 @@ const TSXP: React.FC<ITSXPProps> = () => {
             <div className="card my-3">
               <img
                 className="xpPic"
-                src="/assets/TSLearn.png"
+                src="/assets/TSLearn.PNG"
                 alt="Trak Shak Learn Page"
                 onClick={() => focus("TSLearnPage")}
               />
@@ -200,7 +200,7 @@ const TSXP: React.FC<ITSXPProps> = () => {
             <div className="card my-3">
               <img
                 className="xpPic"
-                src="/assets/TSAdminInventory.png"
+                src="/assets/TSAdminInventory.PNG"
                 alt="Trak Shak Admin Inventory Options"
                 onClick={() => focus("TSAdminInventory")}
               />
@@ -208,7 +208,7 @@ const TSXP: React.FC<ITSXPProps> = () => {
             <div className="card my-3">
               <img
                 className="xpPic"
-                src="/assets/TSAdminEdit.png"
+                src="/assets/TSAdminEdit.PNG"
                 alt="Trak Shak Admin Edit Options"
                 onClick={() => focus("TSAdminEdit")}
               />
