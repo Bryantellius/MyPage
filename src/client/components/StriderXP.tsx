@@ -36,7 +36,7 @@ const StriderXP: React.FC<IStriderXPProps> = () => {
         </div>
         <img
           className="enlargedPic"
-          src="/assets/HomePage.png"
+          src="/assets/HomePage.PNG"
           alt="Home Page Enlarged"
         />
       </div>
@@ -60,7 +60,7 @@ const StriderXP: React.FC<IStriderXPProps> = () => {
         </div>
         <img
           className="enlargedPic"
-          src="/assets/AddPage.png"
+          src="/assets/AddPage.PNG"
           alt="Home Page Enlarged"
         />
       </div>
@@ -84,7 +84,7 @@ const StriderXP: React.FC<IStriderXPProps> = () => {
         </div>
         <img
           className="enlargedPic"
-          src="/assets/LogInPage.png"
+          src="/assets/LogInPage.PNG"
           alt="Home Page Enlarged"
         />
       </div>
@@ -108,7 +108,7 @@ const StriderXP: React.FC<IStriderXPProps> = () => {
         </div>
         <img
           className="enlargedPic"
-          src="/assets/UserPage.png"
+          src="/assets/UserPage.PNG"
           alt="Home Page Enlarged"
         />
       </div>
@@ -178,7 +178,7 @@ const StriderXP: React.FC<IStriderXPProps> = () => {
             <div className="card my-3">
               <img
                 className="xpPic"
-                src="/assets/HomePage.png"
+                src="/assets/HomePage.PNG"
                 alt="Strider Home Page"
                 onClick={() => focus("homePic")}
               />
@@ -186,7 +186,7 @@ const StriderXP: React.FC<IStriderXPProps> = () => {
             <div className="card my-3">
               <img
                 className="xpPic"
-                src="/assets/AddPage.png"
+                src="/assets/AddPage.PNG"
                 alt="Strider Add Page"
                 onClick={() => focus("addPic")}
               />
@@ -196,7 +196,7 @@ const StriderXP: React.FC<IStriderXPProps> = () => {
             <div className="card my-3">
               <img
                 className="xpPic"
-                src="/assets/LogInPage.png"
+                src="/assets/LogInPage.PNG"
                 alt="Log In Page"
                 onClick={() => focus("logInPic")}
               />
@@ -204,7 +204,7 @@ const StriderXP: React.FC<IStriderXPProps> = () => {
             <div className="card my-3">
               <img
                 className="xpPic"
-                src="/assets/UserPage.png"
+                src="/assets/UserPage.PNG"
                 alt="User Profile Page"
                 onClick={() => focus("userPic")}
               />
