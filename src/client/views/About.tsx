@@ -27,8 +27,8 @@ const About: React.FC<IAboutProps> = () => {
         <p className="p-2 text-light" id="about3">
           After graduating, I thought about ways to get into computer science
           being a college graduate. In the meantime, I taught myself about
-          webpages, writing HTML, CSS, and Vanilla Javascript. Finally I decided
-          to enroll in the Covalence Full-Stack Development bootcamp.
+          webpages, writing HTML, CSS, and Vanilla Javascript. I decided
+          to enroll in the Covalence Full-Stack Development bootcamp. Fast-forward to now, I have reached the end of the Covalence.io course, and am seeking opportunities to start a career in software development.
         </p>
         <p className="p-2 text-light" id="about4">
           I enjoy learning and writing code for development. I find it fun to
@@ -63,6 +63,8 @@ const About: React.FC<IAboutProps> = () => {
           <div className="p-2 card">Ruby on Rails</div>
           <div className="p-2 card">Angular</div>
           <div className="p-2 card">C#</div>
+          <div className="p-2 card">PHP</div>
+          <div className="p-2 card">.NET</div>
         </div>
       </div>
     </main>
