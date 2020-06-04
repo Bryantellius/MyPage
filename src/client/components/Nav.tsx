@@ -7,14 +7,14 @@ const Nav: React.FC<INavProps> = () => {
 
   const toggleMenu = () => {
     if (!menu) {
-      document.getElementById("nav-list").style.opacity = "100%";
+      document.getElementById("nav-list").style.opacity = "1.0";
       document.getElementById("nav-list").style.pointerEvents = "all";
       document.getElementById("menuIcon").style.display = "none";
       document.getElementById("arrowIcon").style.display = "inline";
       document.getElementById("arrowIcon").style.animation = "spin 1s";
       setMenu(true);
     } else {
-      document.getElementById("nav-list").style.opacity = "0%";
+      document.getElementById("nav-list").style.opacity = "0.0";
       document.getElementById("nav-list").style.pointerEvents = "none";
       document.getElementById("arrowIcon").style.display = "none";
       document.getElementById("menuIcon").style.display = "inline";
