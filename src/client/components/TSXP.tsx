@@ -35,6 +35,7 @@ const TSXP: React.FC<ITSXPProps> = () => {
           </svg>
         </div>
         <img
+          loading="lazy"
           className="enlargedPic"
           src="/assets/TSHome.PNG"
           alt="Home Page Enlarged"
@@ -59,6 +60,7 @@ const TSXP: React.FC<ITSXPProps> = () => {
           </svg>
         </div>
         <img
+          loading="lazy"
           className="enlargedPic"
           src="/assets/TSLearn.PNG"
           alt="Home Page Enlarged"
@@ -83,6 +85,7 @@ const TSXP: React.FC<ITSXPProps> = () => {
           </svg>
         </div>
         <img
+          loading="lazy"
           className="enlargedPic"
           src="/assets/TSAdminInventory.PNG"
           alt="Home Page Enlarged"
@@ -107,6 +110,7 @@ const TSXP: React.FC<ITSXPProps> = () => {
           </svg>
         </div>
         <img
+          loading="lazy"
           className="enlargedPic"
           src="/assets/TSAdminEdit.PNG"
           alt="Home Page Enlarged"
@@ -181,6 +185,7 @@ const TSXP: React.FC<ITSXPProps> = () => {
           <div className="col-sm-6">
             <div className="card my-3">
               <img
+                loading="lazy"
                 className="xpPic"
                 src="/assets/TSHome.PNG"
                 alt="Trak Shak Home Page"
@@ -189,6 +194,7 @@ const TSXP: React.FC<ITSXPProps> = () => {
             </div>
             <div className="card my-3">
               <img
+                loading="lazy"
                 className="xpPic"
                 src="/assets/TSLearn.PNG"
                 alt="Trak Shak Learn Page"
@@ -199,6 +205,7 @@ const TSXP: React.FC<ITSXPProps> = () => {
           <div className="col-sm-6">
             <div className="card my-3">
               <img
+                loading="lazy"
                 className="xpPic"
                 src="/assets/TSAdminInventory.PNG"
                 alt="Trak Shak Admin Inventory Options"
@@ -207,6 +214,7 @@ const TSXP: React.FC<ITSXPProps> = () => {
             </div>
             <div className="card my-3">
               <img
+                loading="lazy"
                 className="xpPic"
                 src="/assets/TSAdminEdit.PNG"
                 alt="Trak Shak Admin Edit Options"

@@ -8,7 +8,7 @@ const Home: React.FC<IHomeProps> = () => {
         className="d-flex row justify-content-center align-items-center"
       >
         <div id="homeContent" className="d-flex flex-column justify-content-center align-items-end p-3 border-right rounded shadow">
-          <img id="profilePic" src="\assets\ProfilePic.jpg" alt="Test" />
+          <img id="profilePic" src="\assets\ProfilePic.jpg" alt="Test" loading="lazy" />
           <h1 id="homeHeader" className="text-light">Ben Bryant</h1>
           <div id="homeCityDiv" className="d-flex justify-content-between text-light">
             <div id="homeCityName" className="p-1">

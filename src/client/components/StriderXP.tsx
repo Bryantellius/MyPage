@@ -35,6 +35,7 @@ const StriderXP: React.FC<IStriderXPProps> = () => {
           </svg>
         </div>
         <img
+          loading="lazy"
           className="enlargedPic"
           src="/assets/HomePage.PNG"
           alt="Home Page Enlarged"
@@ -59,6 +60,7 @@ const StriderXP: React.FC<IStriderXPProps> = () => {
           </svg>
         </div>
         <img
+          loading="lazy"
           className="enlargedPic"
           src="/assets/AddPage.PNG"
           alt="Home Page Enlarged"
@@ -83,6 +85,7 @@ const StriderXP: React.FC<IStriderXPProps> = () => {
           </svg>
         </div>
         <img
+          loading="lazy"
           className="enlargedPic"
           src="/assets/LogInPage.PNG"
           alt="Home Page Enlarged"
@@ -107,6 +110,7 @@ const StriderXP: React.FC<IStriderXPProps> = () => {
           </svg>
         </div>
         <img
+          loading="lazy"
           className="enlargedPic"
           src="/assets/UserPage.PNG"
           alt="Home Page Enlarged"
@@ -177,6 +181,7 @@ const StriderXP: React.FC<IStriderXPProps> = () => {
           <div className="col-sm-6">
             <div className="card my-3">
               <img
+                loading="lazy"
                 className="xpPic"
                 src="/assets/HomePage.PNG"
                 alt="Strider Home Page"
@@ -185,6 +190,7 @@ const StriderXP: React.FC<IStriderXPProps> = () => {
             </div>
             <div className="card my-3">
               <img
+                loading="lazy"
                 className="xpPic"
                 src="/assets/AddPage.PNG"
                 alt="Strider Add Page"
@@ -195,6 +201,7 @@ const StriderXP: React.FC<IStriderXPProps> = () => {
           <div className="col-sm-6">
             <div className="card my-3">
               <img
+                loading="lazy"
                 className="xpPic"
                 src="/assets/LogInPage.PNG"
                 alt="Log In Page"
@@ -203,6 +210,7 @@ const StriderXP: React.FC<IStriderXPProps> = () => {
             </div>
             <div className="card my-3">
               <img
+                loading="lazy"
                 className="xpPic"
                 src="/assets/UserPage.PNG"
                 alt="User Profile Page"
