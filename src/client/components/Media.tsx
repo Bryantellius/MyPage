@@ -26,7 +26,7 @@ const Media: React.FC<IMediaProps> = () => {
       </div>
       <div className="p-2">
         <a className="nav-link text-dark"
-          href="https://www.linkedin.com/in/ben-bryant-26a433a5/"
+          href="www.linkedin.com/in/benjaminrbryant"
           target="_blank"
         >
           <svg
