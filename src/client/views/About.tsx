@@ -28,10 +28,10 @@ const About: React.FC<IAboutProps> = () => {
           After graduating, I thought about ways to get into computer science
           being a college graduate. In the meantime, I taught myself about
           webpages, writing HTML, CSS, and Vanilla Javascript. I decided
-          to enroll in the Covalence Full-Stack Development bootcamp. Fast-forward to now, I have reached the end of the Covalence.io course, and am seeking opportunities to start a career in software development.
+          to enroll in a Full-Stack Development bootcamp. Best decision I've made.
         </p>
         <p className="p-2 text-light" id="about4">
-          I enjoy learning and writing code for development. I find it fun to
+          Now I work with TrueCoders Software Development Academy as a Student Advisor. I enjoy learning and writing code for development. I find it fun to
           conquer coding challenges, and the resilience it requires.
         </p>
         <h6
