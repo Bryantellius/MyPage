@@ -45,6 +45,7 @@ const About: React.FC<IAboutProps> = () => {
           <div className="p-2 card">Javascipt</div>
           <div className="p-2 card">Typescript</div>
           <div className="p-2 card">React</div>
+          <div className="p-2 card">React Native</div>
           <div className="p-2 card">NodeJS</div>
           <div className="p-2 card">ExpressJS</div>
           <div className="p-2 card">PassportJS</div>
