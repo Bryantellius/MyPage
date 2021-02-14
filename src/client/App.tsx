@@ -11,9 +11,7 @@ const App: React.FC<IAppProps> = () => {
     <main id="appMain" className="container-fluid w-100 h-100">
       <BrowserRouter>
         <NavBar />
-        <div
-          className="d-flex row justify-content-end align-items-center mb-3"
-        >
+        <div className="d-flex row justify-content-end align-items-center mb-3">
           <ul id="nav-list" className="nav">
             <li className="nav-item">
               <NavLink

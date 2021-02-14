@@ -1,21 +1,10 @@
 import * as express from "express";
-import { sendEmail } from "../utils/mailgun";
+import characterRouter from "./characters";
+import emailRouter from "./email";
 
 const router = express.Router();
 
-router.post("/api/email", async (req, res, next) => {
-  try {
-    await sendEmail(
-      "brbryant2639@gmail.com",
-      req.body.email,
-      req.body.subject,
-      req.body.message
-    );
-    res.send({ msg: "Email sent!" });
-  } catch (e) {
-    console.log(e);
-    throw e;
-  }
-});
+router.use("/api", emailRouter);
+router.use("/api/v1", characterRouter);
 
 export default router;

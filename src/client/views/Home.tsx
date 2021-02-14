@@ -13,7 +13,7 @@ const Home: React.FC<IHomeProps> = () => {
         >
           <img
             id="profilePic"
-            src="\assets\ProfilePic.jpg"
+            src="\assets\ben-headshot.png"
             alt="Test"
             loading="lazy"
           />
@@ -25,7 +25,7 @@ const Home: React.FC<IHomeProps> = () => {
             className="d-flex flex-column justify-content-between text-light"
           >
             <div id="jobPosition" className="p-1 border-bottom border-light">
-              TrueCoders Student Advisor
+              TrueCoders Instructor
             </div>
             <div className="d-flex text-light">
               <div id="homeCityName" className="p-1">
