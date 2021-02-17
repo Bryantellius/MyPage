@@ -35,7 +35,7 @@
         "Ankers, The University",
         "Waystone Inn, Newarre"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/nameofthewind/images/0/04/Kvothedd.jpg/revision/latest/scale-to-width-down/126?cb=20170316011707",
+      "imageUrl": "https://benjaminrbryant.herokuapp.com/assets/kkci/kvothe.jpg",
       "imageCredit": "http://djamilaknopf.deviantart.com/art/The-Kingkiller-Chronicle-Kvothe-521006255%7CDjamila"
     },
     {
@@ -51,7 +51,7 @@
       "rank": "Arcanist",
       "instruments": null,
       "residences": ["Crookery, The University"],
-      "imageUrl": "https://static.wikia.nocookie.net/nameofthewind/images/d/d3/Master_elodin.jpg/revision/latest/scale-to-width-down/162?cb=20120430201606",
+      "imageUrl": "https://benjaminrbryant.herokuapp.com/assets/kkci/elodin.jpg",
       "imageCredit": "http://amywinterbreeze.deviantart.com/art/Smile-young-master-250942952"
     },
     {
@@ -67,7 +67,7 @@
       "rank": null,
       "instruments": ["lyre", "harp"],
       "residences": null,
-      "imageUrl": "https://static.wikia.nocookie.net/nameofthewind/images/2/21/Denna_by_abey.png/revision/latest/scale-to-width-down/90?cb=20160804062703",
+      "imageUrl": "https://benjaminrbryant.herokuapp.com/assets/kkci/denna.png",
       "imageCredit": "https://abbeytexjohnson.com/portfolio/denna-kingkiller-chronicle-fanart//"
     },
     {
@@ -83,7 +83,7 @@
       "rank": "Arcanist",
       "instruments": null,
       "residences": null,
-      "imageUrl": "https://static.wikia.nocookie.net/nameofthewind/images/6/61/Abenthy_and_child_kvothe_by_tintaratitornin-d7uj2if.jpg/revision/latest/scale-to-width-down/310?cb=20150403003128",
+      "imageUrl": "https://benjaminrbryant.herokuapp.com/assets/kkci/abenthy.jpg",
       "imageCredit": "https://kingkiller.fandom.com/wiki/Abenthy"
     },
     {
@@ -104,7 +104,7 @@
       "rank": "Re'lar",
       "instruments": null,
       "residences": null,
-      "imageUrl": "https://static.wikia.nocookie.net/nameofthewind/images/9/96/Simmon1.png/revision/latest/scale-to-width-down/123?cb=20190301221041",
+      "imageUrl": "https://benjaminrbryant.herokuapp.com/assets/kkci/simmon.png",
       "imageCredit": "https://kingkiller.fandom.com/wiki/Simmon"
     },
     {
@@ -120,7 +120,7 @@
       "rank": "Re'lar",
       "instruments": null,
       "residences": null,
-      "imageUrl": "https://static.wikia.nocookie.net/nameofthewind/images/0/08/Will.png/revision/latest/scale-to-width-down/123?cb=20190302142556",
+      "imageUrl": "https://benjaminrbryant.herokuapp.com/assets/kkci/wilem.png",
       "imageCredit": "https://kingkiller.fandom.com/wiki/Wilem"
     },
     {
@@ -141,7 +141,7 @@
       "rank": null,
       "instruments": null,
       "residences": ["Severen, Vintas"],
-      "imageUrl": "https://64.media.tumblr.com/aa522c892a65e44dcf1b52b20a428c3e/tumblr_pzdjgvfTrR1uks51xo1_500.jpg",
+      "imageUrl": "https://benjaminrbryant.herokuapp.com/assets/kkci/alveron.jpg",
       "imageCredit": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tumgir.com%2Ftag%2FMaer%2520Alveron&psig=AOvVaw2zFjwrXcBUdCi13YezCNCP&ust=1613427084533000&source=images&cd=vfe&ved=0CA0QjhxqFwoTCJDVx7uy6u4CFQAAAAAdAAAAABAD"
     }
   ]
