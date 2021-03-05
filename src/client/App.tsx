@@ -24,17 +24,17 @@ const App: React.FC<IAppProps> = () => {
             <li className="nav-item">
               <NavLink
                 className="nav-link text-light border-left border-light"
-                to="/about"
+                to="/xp"
               >
-                About
+                Experience
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink
                 className="nav-link text-light border-left border-light"
-                to="/xp"
+                to="/about"
               >
-                Experience
+                About
               </NavLink>
             </li>
             <li className="nav-item">

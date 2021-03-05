@@ -1,5 +1,6 @@
 import * as React from "react";
 import StriderXP from "../components/StriderXP";
+import TCFinancialXP from "../components/TCFinancialXP";
 import TSXP from "../components/TSXP";
 
 const Experience: React.FC<IExperienceProps> = () => {
@@ -9,8 +10,9 @@ const Experience: React.FC<IExperienceProps> = () => {
         id="aboutHeader"
         className="p-2 text-light border-bottom border-light"
       >
-        My Work
+        Projects
       </h1>
+      <TCFinancialXP />
       <StriderXP />
       <TSXP />
     </main>

@@ -2,7 +2,7 @@ import * as React from "react";
 
 const About: React.FC<IAboutProps> = () => {
   return (
-    <main className="container shadow">
+    <main className="container">
       <div id="aboutDiv" className="rounded p-3">
         <h1
           id="aboutHeader"
@@ -14,7 +14,6 @@ const About: React.FC<IAboutProps> = () => {
           <div className="col-lg-6">
             <img
               id="profilePic"
-              className="w-100 h-auto"
               src="\assets\ProfilePic.jpg"
               alt="Ben Bryant"
               loading="lazy"
