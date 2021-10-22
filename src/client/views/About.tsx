@@ -11,7 +11,7 @@ const About: React.FC<IAboutProps> = () => {
           About Me
         </h1>
         <div className="row">
-          <div className="col-lg-6">
+          <div className="col-lg-6 text-center">
             <img
               id="profilePic"
               src="\assets\ProfilePic.jpg"
