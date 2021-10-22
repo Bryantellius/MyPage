@@ -3,11 +3,12 @@ import * as React from "react";
 const Home: React.FC<IHomeProps> = () => {
   return (
     <>
-      <div id="homeMainDiv" className="container">
+      <div id="homeMainDiv" className="container my-4">
         <div id="homeContent" className="row p-3 border-right rounded shadow">
           <div className="col-md-6">
             <img
               id="profilePic"
+              className="img-fluid"
               src="\assets\ben-headshot.png"
               alt="Test"
               loading="lazy"
@@ -22,7 +23,7 @@ const Home: React.FC<IHomeProps> = () => {
               className="d-flex flex-column justify-content-between text-light"
             >
               <div id="jobPosition" className="p-1 border-bottom border-light">
-                TrueCoders Instructor <br /> Web Developer
+                Frontend Engineer <br /> TrueCoders Instructor
               </div>
               <div className="d-flex text-light">
                 <div id="homeCityName" className="p-1">

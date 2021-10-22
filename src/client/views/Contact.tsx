@@ -101,8 +101,7 @@ const Contact: React.FC<IContactProps> = () => {
       </div>
       <div className="appear alert alert-info col-lg-6 col-sm-12 col-md-8 shadow p-3 my-3">
         <h6 className="p-2 border-top border-dark text-muted">
-          Thank you for taking the time to view this site. <br/>
-          If you have any tips, tricks, or pointers, please let me know!
+          Thank you for taking the time to view this site.
         </h6>
       </div>
     </main>

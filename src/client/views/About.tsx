@@ -2,7 +2,7 @@ import * as React from "react";
 
 const About: React.FC<IAboutProps> = () => {
   return (
-    <main className="container">
+    <main className="container my-4">
       <div id="aboutDiv" className="rounded p-3">
         <h1
           id="aboutHeader"
@@ -14,6 +14,7 @@ const About: React.FC<IAboutProps> = () => {
           <div className="col-lg-6 text-center">
             <img
               id="profilePic"
+              className="img-fluid"
               src="\assets\ProfilePic.jpg"
               alt="Ben Bryant"
               loading="lazy"
@@ -51,37 +52,31 @@ const About: React.FC<IAboutProps> = () => {
           className="p-2 text-light about-text border-bottom border-light"
           id="aboutList1"
         >
-          Below is a list of current tech I'm learning and using:
+          Tech I've used in projects:
         </h6>
         <div className="card-columns">
-          <div className="p-2 card">HTML/CSS</div>
-          <div className="p-2 card">Javascipt</div>
-          <div className="p-2 card">Typescript</div>
-          <div className="p-2 card">React</div>
-          <div className="p-2 card">React Native</div>
-          <div className="p-2 card">NodeJS</div>
-          <div className="p-2 card">ExpressJS</div>
-          <div className="p-2 card">PassportJS</div>
-          <div className="p-2 card">C#</div>
-          <div className="p-2 card">MySQL</div>
-          <div className="p-2 card">MongoDB</div>
-          <div className="p-2 card">MailGun</div>
-          <div className="p-2 card">StripeJS</div>
-        </div>
-
-        <h6
-          className="p-2 text-light about-text border-bottom border-light"
-          id="aboutList2"
-        >
-          Below is a list of tech that I want to learn next:
-        </h6>
-        <div className="card-columns">
-          <div className="p-2 card">Remotion</div>
-          <div className="p-2 card">GraphQL</div>
-          <div className="p-2 card">Ruby</div>
-          <div className="p-2 card">Ruby on Rails</div>
-          <div className="p-2 card">Angular</div>
-          <div className="p-2 card">ASP.NET</div>
+          <div className="p-2 card text-center">HTML/CSS</div>
+          <div className="p-2 card text-center">SASS</div>
+          <div className="p-2 card text-center">Javascipt</div>
+          <div className="p-2 card text-center">Typescript</div>
+          <div className="p-2 card text-center">React</div>
+          <div className="p-2 card text-center">React Native</div>
+          <div className="p-2 card text-center">Electron.js</div>
+          <div className="p-2 card text-center">Node.js</div>
+          <div className="p-2 card text-center">Express.js</div>
+          <div className="p-2 card text-center">Passport.js</div>
+          <div className="p-2 card text-center">C#</div>
+          <div className="p-2 card text-center">MySQL</div>
+          <div className="p-2 card text-center">MongoDB</div>
+          <div className="p-2 card text-center">MailGun</div>
+          <div className="p-2 card text-center">Stripe.js</div>
+          <div className="p-2 card text-center">Remotion</div>
+          <div className="p-2 card text-center">GraphQL</div>
+          <div className="p-2 card text-center">Ruby</div>
+          <div className="p-2 card text-center">Ruby on Rails</div>
+          <div className="p-2 card text-center">Angular</div>
+          <div className="p-2 card text-center">Vue.js</div>
+          <div className="p-2 card text-center">ASP.NET</div>
         </div>
       </div>
     </main>
